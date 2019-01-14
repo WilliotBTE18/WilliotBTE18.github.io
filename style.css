@@ -1,3 +1,8 @@
+body{
+background-color: Black ;
+
+}
+
 
 #wrapper{
 
@@ -9,8 +14,8 @@ header{
 
 width: 100%;
 height: 150px;
-background-color: #BF0300;
-border-radius: 50px;
+background-color: #000CE5;
+
 text-align: center;
 color: black;
 font-size: 50px;
@@ -21,8 +26,8 @@ font-family: 'Crete Round', serif;
 nav{
 
   width: 100%;
-  height: 150px;
-  background-color: #DA000F;
+  height: 50px;
+  background-color: #000EFF;
 
 
 
@@ -33,22 +38,22 @@ nav{
 }
 main {
 
-background-color: #E50400;
+background-color: white;
 
   width:100%;
 
-  Height:400px;
+  Height:750px;
 
 }
 aside{
-background-color: #7F0200;
-  width:400px;
-    Height:400px;
+background-color: white;
+  width:1400px;
+    Height:750px;
 }
 footer{
 width: 100%;
 height:100px;
-background-color: #79DA0B
+background-color: #000CE5;
 
 
 }
@@ -60,20 +65,20 @@ font-size: 20px;
 }
 /* unvisited link */
 a:link {
-    color: red;
+    color: black;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: Black;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: Red;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: black;
 }
