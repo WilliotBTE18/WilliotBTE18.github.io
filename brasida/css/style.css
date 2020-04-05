@@ -89,7 +89,7 @@ main{
   padding: 20px;
 }
 aside{
-  height:2400px;
+  height:auto;
   width:200px;
   background-color: #e4f1f9;
   color: #000000;
