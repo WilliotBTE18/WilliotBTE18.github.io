@@ -126,8 +126,6 @@ body{
 
 header{
 
-  width: 1000px;
-
   height: 400px;
 
   background-image: url('../img/logga1.jpg');
@@ -247,19 +245,5 @@ a:hover {
 a:active {
 
   text-decoration: underline;
-
-}
-
-
-
-
-
-img{
-
-  height: 400px;
-
-  width :500px;
-
-  padding: 20px;
 
 }
