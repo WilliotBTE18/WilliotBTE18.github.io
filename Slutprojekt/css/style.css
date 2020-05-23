@@ -1,0 +1,210 @@
+
+header {
+  border-radius: 10px;
+  grid-area: header;
+  background-color: #d1cfcf;
+  height: auto;
+}
+nav{
+  grid-area: nav;
+  background-color: black;
+  height: auto;
+  text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+aside{
+  border-radius: 10px;
+  grid-area: aside;
+  background-image: url('../bilder/kolfiber2.jpg');
+  background-color: black;
+  align-items: stretch;
+}
+main {
+  border-radius: 10px;
+  grid-area: main;
+  background-color: #FFFFFF;
+  font-family: Righteous;
+  font-size: 30px;
+  margin: 13px;
+  justify-content: space-around;
+  height: auto;
+}
+footer {
+  border-radius: 10px;
+  grid-area: footer;
+  background-color: gray;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#Typavrekond{
+  display: flex;
+  width: auto;
+}
+#valttyp{
+  width: 100%;
+}
+#totalkostnadrek{
+  width: 100%;
+}
+#valtbil{
+  width: 100%;
+}
+#javascript1{
+  width: auto;
+  display: none;
+  flex-wrap:;
+}
+.dropbtn {
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 4px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  margin: 10px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn:hover {
+  color: #ffffff !important;
+  background: blue;
+  border-color: blue; !important;
+  transition: all 0.4s ease 0s;
+}
+#wrapper {
+  display: grid;
+  grid-template-columns: 20% 30% 30% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "header header header header"
+     "nav nav nav nav"
+    "aside main main main"
+    "footer footer footer footer";
+}
+
+@media only screen and (max-width: 1000px) {
+  #wrapper {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:  auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "nav"
+    "main"
+    "footer"
+    "aside"
+    ;
+  }
+  aside{
+    width: 100%;
+    height: 250px;
+    grid-area: aside;
+    background-image: url('../bilder/kolfiber1.jpg');
+    background-color: black;
+    align-items: stretch;
+  }
+}
+.knapprek {
+  color: #fff !important;
+  text-decoration: none;
+  background: blue;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  margin: 10px;
+}
+.knapprek:hover {
+  background: #434343;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+#utanscriptrek{
+  margin: 13px;
+}
+
+
+
+
+
+
+
+
+
+.sprite {
+    background-image: url('../bilder/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+.sprite-Seri_stf_retag {
+    width: 100px;
+    height: 100px;
+    background-position: -5px -5px;
+    margin-bottom: 50px;
+}
+
+.sprite-facebook {
+    width: 150px;
+    height: 150px;
+    background-position: -115px -5px;
+}
+
+.sprite-gmail {
+    width: 150px;
+    height: 150px;
+    background-position: -5px -165px;
+}
+
+.sprite-instagram {
+    width: 150px;
+    height: 150px;
+    background-position: -165px -165px;
+}
+
+.sprite-logo {
+    width: 200px;
+    height: 200px;
+    background-position: -325px -5px;
+}
+.responsive {
+   width: 100%;
+   max-width: 700px;
+   height: auto;
+   margin: 10px;
+    }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+#karta{
+  display: block;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 500px;
+}
+.margin{
+  margin: 13px;
+}
+.iconer{
+  margin: 13px;
+  height: auto;
+  flex-wrap: nowrap;
+  display: flex;
+  align-items: center;
+}
