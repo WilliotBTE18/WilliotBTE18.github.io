@@ -34,12 +34,10 @@ main {
 footer {
   border-radius: 10px;
   grid-area: footer;
-  background-color: gray;
+  background-color: #d1cfcf;
   height: 200px;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 #Typavrekond{
   display: flex;
@@ -70,6 +68,7 @@ footer {
   transition: all 0.4s ease 0s;
   margin: 10px;
   color: black;
+  font-size: 25px;
 }
 
 .dropdown {
@@ -92,7 +91,6 @@ footer {
     "aside main main main"
     "footer footer footer footer";
 }
-
 @media only screen and (max-width: 1000px) {
   #wrapper {
     display: grid;
@@ -137,15 +135,6 @@ footer {
 #utanscriptrek{
   margin: 13px;
 }
-
-
-
-
-
-
-
-
-
 .sprite {
     background-image: url('../bilder/spritesheet.png');
     background-repeat: no-repeat;
@@ -188,10 +177,6 @@ footer {
    margin: 10px;
     }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
-}
 #karta{
   display: block;
   margin-top: 10px;
@@ -199,6 +184,13 @@ footer {
   margin-right: auto;
   width: 90%;
   height: 500px;
+}
+.footermid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-size: 20px;
 }
 .margin{
   margin: 13px;
