@@ -13,9 +13,11 @@ nav{
     align-items: center;
     border-radius: 10px;
       font-family: Righteous;
+      margin-top: 5px;
 }
 aside{
   border-radius: 10px;
+  margin-top: 5px;
   grid-area: aside;
   background-image: url('../bilder/kolfiber2.jpg');
   background-color: black;
@@ -37,6 +39,7 @@ footer {
   background-color: #d1cfcf;
   height: 200px;
   width: 100%;
+  margin-top: 5px;
   display: flex;
 }
 #Typavrekond{
@@ -55,7 +58,7 @@ footer {
 #javascript1{
   width: auto;
   display: none;
-  flex-wrap:;
+
 }
 .dropbtn {
   color: #494949 ;
@@ -67,6 +70,7 @@ footer {
   display: inline-block;
   transition: all 0.4s ease 0s;
   margin: 10px;
+  width: 177px;
   color: black;
   font-size: 25px;
 }
@@ -76,12 +80,11 @@ footer {
   display: inline-block;
 }
 .dropbtn:hover {
-  color: #ffffff !important;
+  color: #ffffff;
   background: blue;
-  border-color: blue; !important;
-  transition: all 0.4s ease 0s;
+  border-color: #001ba3;
 }
-#wrapper {
+#wrapper{
   display: grid;
   grid-template-columns: 20% 30% 30% 20%;
   grid-template-rows: auto;
@@ -102,20 +105,24 @@ footer {
     "nav"
     "main"
     "footer"
-    "aside"
+
     ;
   }
-  aside{
+
+  @media only screen and (max-width: 600px) {
+  .footermid{
     width: 100%;
-    height: 250px;
-    grid-area: aside;
-    background-image: url('../bilder/kolfiber1.jpg');
-    background-color: black;
-    align-items: stretch;
+    margin: 10px;
+  }
+  footer{
+    display: flex;
+  flex-direction: column;
+  height: auto;
+  }
   }
 }
 .knapprek {
-  color: #fff !important;
+  color: #fff;
   text-decoration: none;
   background: blue;
   padding: 20px;
@@ -124,12 +131,12 @@ footer {
   border: none;
   transition: all 0.4s ease 0s;
   margin: 10px;
+
 }
 .knapprek:hover {
   background: #434343;
-  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
-  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.57);
   transition: all 0.4s ease 0s;
 }
 #utanscriptrek{
