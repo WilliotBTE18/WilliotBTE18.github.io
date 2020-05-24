@@ -1,9 +1,3 @@
-
-
-/*jslint browser: true*/
-
-/*global $, jQuery, alert*/
-
 var x = 0;
 var y = 1;
 var totr = 0;
